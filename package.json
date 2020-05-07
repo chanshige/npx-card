@@ -7,9 +7,9 @@
     "chanshige": "./bin/card.js"
   },
   "scripts": {
-    "prepublish": "yarn run build",
+    "prepublish": "npm run build",
     "build": "node build.js",
-    "dev": "yarn run build && node ./bin/card.js",
+    "dev": "npm run build && node ./bin/card.js",
     "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
